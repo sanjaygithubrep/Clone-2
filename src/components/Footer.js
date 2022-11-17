@@ -1,4 +1,7 @@
 import React from 'react'
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
   return (
@@ -34,10 +37,10 @@ const Footer = () => {
             </div>
             <div className="col-sm-4">
                 <h1>Follow Us</h1>
-                <img src="images/logo.png" />
-                <img src="images/Facebook-logo.png" />
-                <img src="images/insta.jpg" />
-
+                <TwitterIcon sx={{width:30,height:40}} />
+                <FacebookIcon sx={{width:30,height:40}} />
+                <InstagramIcon sx={{width:30,height:40}} />
+                
             </div>
         </div>
 

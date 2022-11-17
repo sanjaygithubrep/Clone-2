@@ -7,40 +7,88 @@
   padding: 7px;
   display: block;
   border: 1px solid skyblue;
-  width: 300px;
+  width: 80%;
   margin: 20px;
 }
+.inputBox1{
+  padding: 7px;
+ 
+ 
+  border: 1px solid skyblue;
+  width: 300px;
+   margin-top:-10px;
+}
+
+
 .abc{
-  background-color: wheat;
-  height:125vh;
+  background-color: whitesmoke;
+  /* width:90%; */
+  height:20vh;
+  /* justify-content: center; */
+  /* align-items: center; */
   margin-top:-180px;
   padding:30px;
 
 }
+.cbc{
+  background-color:whitesmoke ;
+  height: 90vh;
+  
+}
 .appButton {
   margin: 20px;
-  width: 150px;
+  width: 80%;
   padding: 10px;
-  background-color: skyblue;
+  background-color: black;
+  color:white;
   border: solid 1px;
   cursor: pointer;
 }
 .bbc{
-  background-color: black;
+  background-color:seashell;
   height: 30vh;
-  color: white;
+  color: black;
 }
 .image{
   border-radius: 165px;
+}
+.icon{
+  width: 20px;
 }
 @media screen and (max-width:450px){
   .bbc{
     visibility: hidden;
   }
   .abc{
-    height:150vh;
+    height:80vh;
   }
   .cbox{
+    visibility: hidden;
+  }
+  .inputBox {
+    padding: 7px;
+    display: block;
+    border: 1px solid skyblue;
+    width: 70%;
+    margin: 10px;
+  }
+  .inputBox1 {
+    padding: 7px;
+    display: block;
+    border: 1px solid skyblue;
+    width: 70%;
+    margin: 10px;
+  }
+  .appButton {
+    margin: 20px;
+    width: 70%;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    border: solid 1px;
+    cursor: pointer;
+  }
+  .ccc{
     visibility: hidden;
   }
 }

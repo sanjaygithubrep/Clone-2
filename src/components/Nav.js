@@ -12,6 +12,7 @@ import { Pets, Mail, Notifications } from "@mui/icons-material";
 import Badge from "@mui/material/Badge";
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import PageviewIcon from '@mui/icons-material/Pageview';
 import Fade from '@mui/material/Fade';
 
 const StyledToolbar = styled(Toolbar)({
@@ -47,12 +48,15 @@ const Navbar = () => {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          Clone
+        <button type="button" className="btn btn-primary">Logo</button>
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
-        <Search>
+        <Search className='ccc'>
           <InputBase placeholder="search.." />
         </Search>
+        <PageviewIcon className='ccc' sx={{width:50,height:50}} />
+        <h6 className='ccc'>Post Project</h6>
+        <h6 className='ccc'>Search Project</h6>
         <Icons>
           <Badge badgeContent={4} color="error">
             <Mail />
